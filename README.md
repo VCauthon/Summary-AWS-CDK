@@ -14,9 +14,12 @@ The explanations below assume that the project will run on `LINUX` and will be d
     - [Installation](./src/docs/04-setup-instructions.md)
     - [App structure](./src/docs/05-app-folder-structure.md)
     - [Deploying Cycle](./src/docs/06-deploying-cycle.md)
+    - [Testing deployed infrastructure](./src/docs/07-testing-infrastructure.md)
 - __Exercises:__
-    - [Creating a bucket](./src/excercises/adding-a-bucket/README.md)
-
+    - [API working with DynamoDB](./src/excercises/01-simple-api-lambda-dynamodb/README.md)
+    - [Static website](./src/excercises/02-simple-web-page/README.md) __> PENDING!__
+    - [Dynamic website](./src/excercises/03-web-page-with-db/README.md) __> PENDING!__
+    - [Sharing code between lambdas](./src/excercises/04-sharing-code-between-lambdas/README.md) __> PENDING!__
 
 ### CHEAT SHEET
 
