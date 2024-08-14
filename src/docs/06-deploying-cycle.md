@@ -118,7 +118,7 @@ Generate unique ids (arn) for each of the assets.
       </a>
     </td>
     <td>
-      <a href="./06-deploying-cycle.md">
+      <a href="./07-testing-infrastructure.md">
         <img src="../static/icons/arrow_right.png" alt="Right">
       </a>
     </td>

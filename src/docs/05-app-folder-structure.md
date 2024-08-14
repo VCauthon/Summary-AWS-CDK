@@ -50,19 +50,27 @@ The basic folder distribution created with CDK will be the following:
 ```
 my-cdk-app/               # Root directory of your CDK project
 │
-├── bin/                  # Contains the entry point for the CDK application
-│   └── my_cdk_app.py     # Main entry file for the CDK app (defines stacks)
+├── .venv/                # Python virtual environment directory (created after running `python -m venv .venv`)
 │
-├── lib/                  # Contains your CDK stack definitions
+├── my_cdk_app/           # Contains your CDK stack definitions and application code
+│   ├── __init__.py       # Marks the directory as a Python package
 │   └── my_cdk_app_stack.py  # Defines your stack(s) and AWS resources
 │
+├── tests/                # Contains unit tests for your CDK stacks
+│   ├── __init__.py       # Marks the directory as a Python package
+│   └── test_my_cdk_app_stack.py  # Unit tests for your stack(s)
+│
 ├── .gitignore            # Specifies intentionally untracked files to ignore
+│
+├── README.md             # Project description and instructions
+│
+├── app.py                # Main entry file for the CDK app (defines stacks)
 │
 ├── cdk.json              # Configures the CDK command-line toolkit
 │
 ├── requirements.txt      # Lists Python dependencies (for pip installation)
 │
-└── README.md             # Project description and instructions
+└── source.bat            # Batch script to activate the virtual environment on Windows
 ```
 
 However, you can make your how custom format. [Here](https://aws.amazon.com/blogs/developer/recommended-aws-cdk-project-structure-for-python-applications/) you will find the recommended aws project CDK structure.
