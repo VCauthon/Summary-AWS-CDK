@@ -18,7 +18,7 @@ The explanations below assume that the project will run on `LINUX` and will be d
 - __Exercises:__
     - [API working with DynamoDB](./src/excercises/01-simple-api-lambda-dynamodb/README.md)
     - [Static website](./src/excercises/02-simple-web-page/README.md)
-    - [Dynamic website](./src/excercises/03-web-page-with-db/README.md) __> PENDING!__
+    - [Dynamic website](./src/excercises/03-web-page-with-db/README.md)
     - [Sharing code between lambdas](./src/excercises/04-sharing-code-between-lambdas/README.md) __> PENDING!__
 
 ### CHEAT SHEET
